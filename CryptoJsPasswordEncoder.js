@@ -26,6 +26,7 @@
         this.encodeHashAsBase64 = encodeHashAsBase64;
         this.iterations = iterations;
     }
+    CryptoJsPasswordEncoder.VERSION = '0.1.0';
     CryptoJsPasswordEncoder.prototype.isPasswordTooLong = function(raw) {
         return raw.length > 4096;
     };
