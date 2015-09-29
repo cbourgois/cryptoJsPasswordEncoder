@@ -16,6 +16,9 @@ bower install cryptojs-password-encoder --save
 And in your html file:
 
 ``` html
+<script type="text/javascript" src="bower_components/cryptojslib/rollups/sha512.js"></script>
+<script type="text/javascript" src="bower_components/cryptojslib/components/enc-base64.js"></script>
+
 <script type="text/javascript" src="bower_components/cryptojs-password-encoder/CryptoJsPasswordEncoder.js"></script>
 ```
 
