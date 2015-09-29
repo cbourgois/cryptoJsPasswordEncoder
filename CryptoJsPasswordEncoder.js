@@ -20,7 +20,7 @@
             encodeHashAsBase64 = true;
         }
         if (!iterations) {
-            iterations = 1000;
+            iterations = 5000;
         }
         this.algorithm = algorithm;
         this.encodeHashAsBase64 = encodeHashAsBase64;
